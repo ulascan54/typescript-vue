@@ -12,3 +12,7 @@
 > ## Types
 
 - String, Number, Boolean, Array, Object, toFloat, parseFloat, null, undefined, Infinity, Symbol, bigint
+
+---
+
+> **ANY**: let a: any = 25 denildiğinde doğrudan javascript te geçiş yapmış gibi oluruz
