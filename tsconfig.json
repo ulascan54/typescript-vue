@@ -1,7 +1,15 @@
 {
     "compilerOptions": {
         "lib": ["ESNext","DOM"], // en son versiyonu seçiyoruz
+        "target": "ES6",
         "strict":false,
         "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": false,
+        "outDir": "./dist",
+        "rootDir": "src",
+        "downlevelIteration": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
     }
 }
